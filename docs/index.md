@@ -11,7 +11,7 @@ hero:
 footer: Copyright (c) © 2023 by encode studio, All Rights Reserved
 ---
 
-## ✨ 特性
+## ✨ 项目特性
 
 - 可靠的代码健壮：使用 Typescript 构建，提供完善的类型定义文件
 - 完善的文档能力：支持文档记录，支持 demo 演示
