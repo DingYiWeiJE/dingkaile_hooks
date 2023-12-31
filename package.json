@@ -1,0 +1,30 @@
+{
+  "name": "dingkaile_hooks",
+  "version": "1.0.0",
+  "description": "丁凯乐的自定义hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encode-fe-lint-scan": "encode-fe-lint scan",
+    "encode-fe-lint-fix": "encode-fe-lint fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DingYiWeiJE/dingkaile_hooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DingYiWeiJE/dingkaile_hooks/issues"
+  },
+  "homepage": "https://github.com/DingYiWeiJE/dingkaile_hooks#readme",
+  "devDependencies": {
+    "encode-fe-lint": "^1.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "encode-fe-lint commit-file-scan",
+      "commit-msg": "encode-fe-lint commit-msg-scan"
+    }
+  }
+}
