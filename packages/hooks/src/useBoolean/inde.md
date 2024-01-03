@@ -5,7 +5,7 @@ nav:
 
 # useBoolean
 
-优雅的管理 boolean 状态的 Hook。
+让您优雅的管理 boolean 状态的 Hook。
 
 ## 代码演示
 
